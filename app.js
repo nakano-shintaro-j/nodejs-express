@@ -5,7 +5,7 @@ app.set('views', './views');
 app.set('view engine', 'pug');
 app.use(express.static('public'));
 app.get('/topic', function(req, res){
-  var topics = [
+  let topics = [
     'Javascript',
     'NodeJS',
     'Express'
